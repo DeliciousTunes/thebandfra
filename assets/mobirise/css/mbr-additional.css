@@ -1044,40 +1044,96 @@ section.lazy-placeholder:after {
     left: -1rem;
   }
 }
-.cid-rKJwCIR3dM {
-  background-image: url("../../../assets/images/big-banner-fra-website.jpg");
+.cid-tp2Jy1czDy {
+  background-image: url("../../../assets/images/fra-womex-2022-photo-banning-eyre-16.jpg");
 }
-.cid-rKJwCIR3dM .btn {
-  padding: 10px 15px 10px 15px;
-  font-weight: bold;
+.cid-tp2Jy1czDy .mbr-section-text {
+  margin-top: 1.5rem;
+  animation-delay: .2s;
 }
-.cid-rKJwCIR3dM .mbr-section-title {
-  letter-spacing: .1em;
-  color: #f7ed4a;
+.cid-tp2Jy1czDy .mbr-section-btn {
+  animation-delay: .4s;
 }
-.cid-rKJwCIR3dM .icon-description {
-  padding-top: 1rem;
-  color: #ffffff;
+.cid-tp2Jy1czDy .card-wrap {
+  background-color: #ffffff;
+  padding: 3rem 2.5rem;
+  margin-top: auto;
+  margin-bottom: 3rem;
+  margin-right: 2.5rem;
 }
-.cid-rKJwCIR3dM .mbr-media {
-  height: 70px;
+@media (min-width: 992px) {
+  .cid-tp2Jy1czDy .card-wrap {
+    width: calc(100% + 15rem);
+    margin-left: -17.5rem;
+  }
 }
-.cid-rKJwCIR3dM .mbr-media span {
-  font-size: 48px;
-  cursor: pointer;
+@media (max-width: 767px) {
+  .cid-tp2Jy1czDy .card-wrap {
+    margin: auto;
+    padding: 1rem;
+  }
+}
+.cid-tp2Jy1czDy section {
+  position: relative;
+}
+.cid-tp2Jy1czDy .mbr-iconfont {
+  padding: 0!important;
+}
+.cid-tp2Jy1czDy .back {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+  background-color: #000000;
+}
+@media (max-width: 767px) {
+  .cid-tp2Jy1czDy .back {
+    width: 100%;
+  }
+}
+.cid-tp2Jy1czDy .box {
+  background-image: url("../../../assets/images/fra-womex2022-yannis-psathas-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  margin-right: auto;
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .cid-tp2Jy1czDy .box {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tp2Jy1czDy .icon-wrap {
+  background-color: #ffffff !important;
+  width: 73.5px;
+  height: 73.5px;
   border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: .2s;
+}
+.cid-tp2Jy1czDy .icon-wrap:hover {
+  transform: scale(1.05);
+}
+.cid-tp2Jy1czDy .icon-wrap span {
+  padding-left: 8px;
+}
+.cid-tp2Jy1czDy .mbr-media span {
+  font-size: 30px;
+  cursor: pointer;
   position: relative;
   display: inline-block;
   transition: all 0.25s;
-  color: white;
+  color: #000000 !important;
 }
-.cid-rKJwCIR3dM .mbr-media span:hover {
-  opacity: 0.7;
-}
-.cid-rKJwCIR3dM .mbr-media span.mbri-play:before {
+.cid-tp2Jy1czDy .mbr-media span.mbri-play:before {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-35%);
@@ -1086,7 +1142,7 @@ section.lazy-placeholder:after {
   -o-transform: translateX(-35%);
   transform: translateX(-35%);
 }
-.cid-rKJwCIR3dM .modalWindow {
+.cid-tp2Jy1czDy .modalWindow {
   position: fixed;
   z-index: 5000;
   left: 0;
@@ -1095,16 +1151,16 @@ section.lazy-placeholder:after {
   width: 100%;
   height: 100%;
 }
-.cid-rKJwCIR3dM .modalWindow .modalWindow-container {
+.cid-tp2Jy1czDy .modalWindow .modalWindow-container {
   display: table-cell;
   vertical-align: middle;
 }
-.cid-rKJwCIR3dM .modalWindow .modalWindow-video {
-  height: 44.9943757vw;
+.cid-tp2Jy1czDy .modalWindow .modalWindow-video {
+  height: calc(44.9943757vw);
   width: 80vw;
   margin: 0 auto;
 }
-.cid-rKJwCIR3dM a.close {
+.cid-tp2Jy1czDy a.close {
   position: absolute;
   right: 4vw;
   top: 4vh;
@@ -1115,12 +1171,27 @@ section.lazy-placeholder:after {
   padding: 20px;
   border-radius: 50%;
 }
-.cid-rKJwCIR3dM a.close:hover {
+.cid-tp2Jy1czDy a.close:hover {
   color: #ffffff;
 }
-.cid-rKJwCIR3dM .mbr-text,
-.cid-rKJwCIR3dM .mbr-section-btn {
-  color: #f7ed4a;
+@media (max-width: 767px) {
+  .cid-tp2Jy1czDy .box {
+    height: 250px;
+  }
+  .cid-tp2Jy1czDy .row {
+    padding: 1rem!important;
+  }
+}
+.cid-tp2Jy1czDy H1 {
+  text-align: left;
+}
+.cid-tp2Jy1czDy .mbr-section-subtitle,
+.cid-tp2Jy1czDy .mbr-section-btn {
+  text-align: left;
+}
+.cid-tp2Jy1czDy .mbr-section-text,
+.cid-tp2Jy1czDy .mbr-section-btn {
+  text-align: left;
 }
 .cid-rKJBf3scGx {
   padding-top: 0px;
@@ -1258,102 +1329,6 @@ section.lazy-placeholder:after {
 .cid-rL0V1b6MWA .carousel-control-prev {
   left: -30px;
   transform: translateX(-50%);
-}
-.cid-taSFM4bHOh {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #ffffff;
-}
-.cid-taSFM4bHOh .card-box {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  margin: auto auto 1rem 2rem;
-  height: fit-content;
-  max-width: 300px;
-}
-.cid-taSFM4bHOh .card-wrap {
-  background-color: #232323;
-  display: flex;
-  height: 100%;
-  min-height: 300px;
-}
-.cid-taSFM4bHOh .card-wrap:hover h4,
-.cid-taSFM4bHOh .card-wrap:hover a {
-  background-size: 100% 100%;
-}
-.cid-taSFM4bHOh h3 {
-  position: absolute;
-  transform: rotate(-90deg);
-  transform-origin: top left;
-  width: fit-content;
-  padding: 0;
-  margin: 0;
-  left: 0rem;
-  top: -1rem;
-}
-.cid-taSFM4bHOh h3:after {
-  content: "";
-  color: #333;
-  width: 30px;
-  position: absolute;
-  top: 50%;
-  height: 1px;
-  background-color: #ffffff;
-  margin-left: 10px;
-}
-.cid-taSFM4bHOh img {
-  width: 100%;
-}
-.cid-taSFM4bHOh h4 {
-  display: inline!important;
-  text-decoration: none;
-  background-image: linear-gradient(transparent calc(98%), currentColor 1px);
-  background-repeat: no-repeat;
-  background-position: 0;
-  background-size: 0% 100%;
-  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.cid-taSFM4bHOh h4 a {
-  display: inline!important;
-  text-decoration: none;
-  background-image: linear-gradient(transparent calc(98%), currentColor 1px) !important;
-  background-repeat: no-repeat;
-  background-position: 0;
-  background-size: 0% 100%;
-  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.cid-taSFM4bHOh .card-title1,
-.cid-taSFM4bHOh .title-wrap1 {
-  color: #ffffff;
-}
-.cid-taSFM4bHOh .card-title,
-.cid-taSFM4bHOh .title-wrap {
-  color: #ffffff;
-}
-@media (max-width: 992px) {
-  .cid-taSFM4bHOh .mdpb {
-    padding-bottom: 2rem;
-  }
-  .cid-taSFM4bHOh .card-box {
-    margin: auto auto 0rem 1rem;
-  }
-}
-.cid-taSFM4bHOh H3 {
-  color: #ffffff;
-}
-.cid-taSFM4bHOh .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-taSFM4bHOh .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
 }
 .cid-taNd2QuWOl {
   padding-top: 6rem;
@@ -1750,7 +1725,7 @@ section.lazy-placeholder:after {
   background-color: #000000;
 }
 .cid-rKJyyEF02s .box {
-  background-image: url("../../../assets/images/fra-6.jpg");
+  background-image: url("../../../assets/images/fra-womex2022-yannis-psathas-1.jpg");
   background-size: cover;
   background-position: center;
   height: 550px;

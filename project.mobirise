@@ -83,13 +83,13 @@
     "gdpr": false,
     "pwa-switcher": false,
     "imageResize": false,
-    "mbrsiteDomain": "1jcafcfhel"
+    "mbrsiteDomain": "vnys9cldhy"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "The Band FRA! - Afro Fusion Band from Ghana",
+        "title": "The Band FRA! - Highlife Funk from Ghana",
         "meta_descr": "Eccentric band with its eclectic sound, on a quest to re-define live afrocentric music on and beyond the continent.",
         "header_custom": "",
         "footer_custom": "",
